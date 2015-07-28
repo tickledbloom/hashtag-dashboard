@@ -1,0 +1,37 @@
+.graphContainer {
+    width: 90%;
+    margin: 2% 5%;
+    text-align: center;
+}
+.container {
+    min-width: 310px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 15px;
+    background: #ffffff;
+}
+.container img {
+    margin: auto;
+    display: block;
+    width: 350px;
+    margin-top: 50px;
+}
+html {
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+input[type="text"] {
+    padding: 10px;
+    border: solid 5px #c9c9c9;
+    transition: border 0.3s;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+input[type="text"]:focus,
+input[type="text"].focus {
+    border: solid 5px #969696;
+}
+#button-container {
+    margin: 20px 0 30px 0;
+}
